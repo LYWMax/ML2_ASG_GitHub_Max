@@ -2,7 +2,7 @@ import os
 import joblib
 import pandas as pd
 
-MODEL_PATH = os.path.join("models", "best_model.joblib")
+MODEL_PATH = os.path.join("models", "model.joblib")
 DATA_PATH = os.path.join("data", "day_2011.csv")
 
 def test_model_predicts_without_error():
