@@ -16,24 +16,29 @@ This repository demonstrates a basic MLOps workflow including:
 
 ## Repository Structure
 ```
-├── src/                # Training and drift analysis scripts
+project/
+│
+├── notebooks/          # Exploration & experiments
+│   └── bike_demand_analysis.ipynb
+│
+├── src/                # Production / reproducible code
 │   ├── train_task1.py
 │   ├── drift_task2.py
 │   └── utils.py
 │
-├── data/               # Datasets
+├── data/
 │   ├── day_2011.csv
 │   └── day_2012.csv
 │
-├── models/             # Saved trained model
+├── models/
 │   └── model.joblib
 │
-├── tests/              # Automated tests
+├── tests/
 │   └── test_model.py
 │
-├── requirements.txt    # Python dependencies
+├── requirements.txt
 ├── README.md
-└── .github/workflows/python-app.yml  # CI workflow
+└── .github/workflows/python-app.yml
 ```
 
 ---
